@@ -27,9 +27,9 @@ public class Main {
         //Выведите в консоль новые значения переменных.
 
         System.out.println("Задача 2");
-        dog = 8 + 4;
-        cat = 3.6 + 4;
-        paper = 763789 + 4;
+        dog += 4;
+        cat += 4;
+        paper += 4;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
@@ -43,9 +43,9 @@ public class Main {
         //Выведите в консоль новые значения переменных. Для решения этой задачи используйте тип переменной var.
 
         System.out.println("Задача 3");
-        dog = dog - 3.5;
-        cat = 3.6 - 1.6;
-        paper = 763789 - 7639;
+        dog -=  3.5;
+        cat -= 1.6;
+        paper -= 7639;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
@@ -63,9 +63,9 @@ public class Main {
         System.out.println("Задача 4");
         var friend = 19;
         System.out.println(friend);
-        friend = friend + 2;
+        friend += 2;
         System.out.println(friend);
-        friend = friend / 7;
+        friend /= 7;
         System.out.println(friend);
         System.out.println();
 
@@ -81,11 +81,11 @@ public class Main {
         System.out.println("Задача 5");
         var frog = 3.5;
         System.out.println(frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println(frog);
-        frog = frog / 3.5;
+        frog /= 3.5;
         System.out.println(frog);
-        frog = frog + 4;
+        frog +=  4;
         System.out.println(frog);
         System.out.println();
 
